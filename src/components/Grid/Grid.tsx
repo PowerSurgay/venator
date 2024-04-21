@@ -8,4 +8,5 @@ export type GridProps = {
 
 export const Grid = styled.div<GridProps>`
     display: flex;
+    flex-direction: ${({ direction }) =>  direction}
 `
