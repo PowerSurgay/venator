@@ -1,5 +1,11 @@
-import { FC } from "react"
+import { Direction } from "../../types"
+import styled from "styled-components";
 
-export const Grid: FC = () => {
-    return <div></div>
+export type GridProps = {
+    direction: Direction;
+    bordered: boolean
 }
+
+export const Grid = styled.div<GridProps>`
+    display: flex;
+`

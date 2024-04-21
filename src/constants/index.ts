@@ -1,2 +1,2 @@
- export const POPUP_ROOT = 'popup-root'
+ export const POPUP_ROOT = 'popup-root';
 
