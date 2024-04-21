@@ -8,5 +8,6 @@ const Admin: FC = () => {
 export const AdminPage: RouteItem =  {
     path: '/admin',
     component: Admin,
-    pageTitle: 'Admin'
+    pageTitle: 'Admin',
+    public: false
 }

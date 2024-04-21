@@ -8,5 +8,7 @@ const ProductList: FC = () => {
 export const ProductListPage: RouteItem =  {
     path: '/products',
     component: ProductList,
-    pageTitle: 'ProductList'
+    pageTitle: 'ProductList',
+    public: true
+
 }

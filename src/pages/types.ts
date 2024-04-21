@@ -3,5 +3,6 @@ import { FC } from "react";
 export type RouteItem = {
     path: string,
     component: FC,
-    pageTitle: string
+    pageTitle: string,
+    public: boolean, 
 }

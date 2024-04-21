@@ -10,5 +10,7 @@ const Product: FC = () => {
 export const ProductPage: RouteItem =  {
     path: '/product/:id',
     component: Product,
-    pageTitle: 'Product'
+    pageTitle: 'Product',
+    public: true
+
 }
